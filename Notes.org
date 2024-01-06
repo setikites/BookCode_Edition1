@@ -1,0 +1,37 @@
+* 1E1
+<2023-12-26 Tue>
+A paper boat model was used to give me an idea of construction techniques before building Thorn.
+Half-hull models are traditionally used in wooden boatbuilding to explore proportions and dimensions.
+Maps are models of terrain.
+Star maps are models of the visible navigation stars
+Business models are mathematical simulations of the flows of dollars in a company.
+* 1E2
+<2023-12-26 Tue>
+The probability of a parameter given the observed data
+posterior is P(\theta \mid Y)
+
+
+The distribution of parameters before seeing any data
+prior is P(\theta)
+
+The plausibility of the observed data given a parameter value
+likelihood is P(Y \mid \theta)
+
+The probability of an unseen observation given the observed data
+posterior predictive distribution is
+p(\tilde{\boldsymbol{Y}} \mid \boldsymbol{Y}) = \int_{\boldsymbol{\Theta}} p(\tilde{\boldsymbol{Y}} \mid \boldsymbol{\theta}) \, p(\boldsymbol{\theta} \mid \boldsymbol{Y}) \, d\boldsymbol{\theta}
+
+The probability of an unseen observation before seeing any data
+prior predictive is
+p(\boldsymbol{Y}^\ast) =  \int_{\boldsymbol{\Theta}} p(\boldsymbol{Y^\ast} \mid \boldsymbol{\theta}) \; p(\boldsymbol{\theta}) \; d\boldsymbol{\theta}
+*1E3
+<2023-12-26 Tue>
+From the following expressions, which one corresponds to the sentence, The probability of being sunny given that it is July 9th of 1816?
+
+p(\text{sunny} \mid \text{July 9th of 1816})
+* 1E4
+Show that the probability of choosing a human at random and picking
+the Pope is not the same as the probability of the Pope being
+human. In the animated series Futurama, the (Space) Pope is a
+reptile. How does this change your previous calculations?
+
